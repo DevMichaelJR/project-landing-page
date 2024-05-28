@@ -25,9 +25,12 @@ body {
 
     .header-container {
         flex-basis: 850px;
+        padding: 0 12px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
     }
 
         .logo {
@@ -64,13 +67,16 @@ body {
 
     .hero-container {
         flex-basis: 850px;
+        padding: 0 12px;
         display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-        gap: 60px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 46px;
     }
 
         .hero-content {
+            flex-basis: 380px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -103,7 +109,7 @@ body {
             font-size: 18px;
             color: #E5E7EB;
             flex: 0 0 400px;
-            height: auto;
+            height: 300px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -127,6 +133,7 @@ body {
     .information-images {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 30px;
     }
 
@@ -155,6 +162,7 @@ body {
 
     .quote-container {
         max-width: 850px;
+        padding: 0 12px;
     }
 
         .quote {
@@ -171,10 +179,11 @@ body {
             font-weight: 900;
             color: #1F2937;
             padding-bottom: 100px;
+            margin-top: 10px;
         }
 
 .signup-section {
-    padding: 100px 0px;
+    padding: 100px 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,12 +193,12 @@ body {
         flex-basis: 850px;
         background-color: #3882F6;
         color: #F9FAF8;
-        padding: 50px 0px;
+        padding: 50px 16px;
         border-radius: 10px;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        gap: 100px;
+        gap: 20px;
     }
 
         .call {
